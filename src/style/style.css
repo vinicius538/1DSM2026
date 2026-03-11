@@ -1,0 +1,53 @@
+body{
+    margin: 0;
+    background-color: #d8fbd8;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(1, 109, 1);
+}
+
+header{
+    display: flex;
+    background-color: #bbf6bb;
+}
+
+#logo{
+    width: 100px;
+    height: 100px;
+}
+
+#faculdade{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.links{
+    display: flex;
+    margin-left: 1000px;
+    display: block;
+    margin-left: 30;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+a{
+    margin-left: 10px;
+}
+
+p,h2{
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+button{
+    border-radius: 20%;
+    border: transparent;
+    background-color: #3a793a;
+    color: rgb(255, 255, 255);
+}
+button:hover{
+    background-color: #51a551;
+    transition: 0.5s;
+    cursor: pointer;
+}
