@@ -1,13 +1,17 @@
 body{
     margin: 0;
-    background-color: #d8fbd8;
+    background-color: #ffffff;
     font-family: Arial, Helvetica, sans-serif;
-    color: rgb(1, 109, 1);
+    color: rgb(0, 0, 0);
+}
+h2{
+    color: rgb(184, 0, 0);
 }
 
 header{
     display: flex;
-    background-color: #bbf6bb;
+    background-color: #ffffff;
+    border-bottom: solid rgb(134, 0, 0) 1px;
 }
 
 #logo{
@@ -30,6 +34,16 @@ header{
     margin-top: auto;
     margin-bottom: auto;
 }
+.links a{
+    color: red;
+    text-decoration: none;
+    padding: 20px;
+}
+.links a:hover{
+    transition: 0.5s;
+    background-color: rgb(197, 54, 54);
+    color: white;
+}
 
 a{
     margin-left: 10px;
@@ -39,15 +53,22 @@ p,h2{
     margin-left: 5%;
     margin-right: 5%;
 }
+p input{
+    width: 50%;
+    border-radius: 10%;
+    border: none;
+    background-color: #f9e7e7;
+    color: black
+}
 
 button{
     border-radius: 20%;
     border: transparent;
-    background-color: #3a793a;
+    background-color: rgb(151, 35, 35);
     color: rgb(255, 255, 255);
 }
 button:hover{
-    background-color: #51a551;
+    background-color: #ff0000;
     transition: 0.5s;
     cursor: pointer;
 }
